@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>JOHANS BLOGG</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="header clearfix">
+            <div>
+                <h1 class="title">Johans blogg</h1>
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li class="active"><a href="contact.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="content">
+                <div class="post">
+                    <div class="info">
+
+                    </div>
+
+                    <div class="form">
+                        <form action="" method="POST">
+                            <label>
+                                Namn
+                                <input name="name" placeholder="Namn" />
+                            </label>
+
+                            <label>
+                                E-post
+                                <input name="email" placeholder="E-post" />
+                            </label>
+                            
+                            Ämne
+                            <label>
+                                <input type="radio" name="subject" value="Fråga" /> 
+                                Fråga
+                            </label>
+                            <label>
+                                <input type="radio" name="subject" value="Feedback" />
+                                Feedback
+                            </label>
+                            <label>
+                                <input type="radio" name="subject" value="Övrigt" />
+                                Övrigt
+                            </label>
+                            <label>
+                                Meddelande
+                                <textare name="body" placeholder="Meddelande"></textare>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
